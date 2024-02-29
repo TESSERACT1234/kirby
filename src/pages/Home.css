@@ -1,0 +1,9 @@
+.sample{
+    display: flex;
+    flex-direction: 'row';
+  
+}
+.card{
+    padding: 40px;
+    margin: 50px;
+}
