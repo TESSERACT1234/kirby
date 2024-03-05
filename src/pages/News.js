@@ -6,26 +6,41 @@ import Ncard4 from '../components/Ncard4'
 import Ncard5 from '../components/Ncard5'
 import './News.css';
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 
 
 function News() {
   return (
     <div>
-      <div>
-      <h1 style={{textAlign:"center",color:"orangered",marginTop:"20px",fontSize:"60px"}}> Latest News</h1>
-      </div>
-      <div  className='sample'>
-       <Ncard1/>
-       <Ncard2/>
-       <Ncard3/>
-       <Ncard4/>
-       <Ncard5/>
-      
-       
-       
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <Ncard1 />
     </div>
+    <div class="carousel-item">
+      <Ncard2 />
+    </div>
+    <div class="carousel-item">
+      <Ncard3 />
+    </div>
+    <div class="carousel-item">
+      <Ncard4 />
+    </div>
+    <div class="carousel-item">
+      <Ncard5 />
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../pages/Home2.css'
+
 function Card15() {
     return (
         <div>

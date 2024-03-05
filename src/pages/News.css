@@ -35,3 +35,8 @@
 .card-title{
     margin-left:20px ;
 }
+
+.cards-wrapper{
+    display: flex;
+    flex-direction: row;
+}
