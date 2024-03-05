@@ -4,7 +4,7 @@ function Card4() {
     return (
         <div>
             <div className="card" >
-            <img src="./images/factory.png" class="card-img-top" alt="Chinese" />
+            <img src="./images/factory.png" class="card-img-top1" alt="Chinese" />
                 <div className="card-body">
                     <h5 className="card-title">Industrial</h5>
                 </div>

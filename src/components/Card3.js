@@ -5,7 +5,7 @@ function Card3() {
     return (
         <div>
             <div className="card" >
-            <img src="./images/growth.png" class="card-img-top" alt="Chinese" />
+            <img src="./images/growth.png" class="card-img-top1" alt="Chinese" />
                 <div className="card-body">
                     <h5 className="card-title">Agriculture</h5>
                 </div>

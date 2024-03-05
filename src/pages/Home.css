@@ -1,9 +1,48 @@
+
 .sample{
     display: flex;
     flex-direction: 'row';
   
+  
 }
 .card{
-    padding: 40px;
-    margin: 50px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: orangered;
+    height: 250px;
+    width: 200px;
+    
+  
+}
+
+.heading{
+
+     display: flex;
+    font-size: 50px;
+    color: orangered;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.card-title{
+font-size: 20px;
+margin-top: 20px;
+margin-left:10px;
+}
+.card-img-top1{
+width: 100px;
+height: 100px;
+margin-left:35px;
+margin-top: 20px;
+
+}
+.s{
+    font-size: 65px;
+    color: white;
+    margin-top: 240px;
+    margin-left: 150px;
+    text-align: center;
 }

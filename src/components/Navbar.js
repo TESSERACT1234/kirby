@@ -5,14 +5,14 @@ import Slide from './Slide'
 const navbar = () => {
   return (
     <div >
-      <div className="container1" style={{paddingLeft:"50px", paddingRight:"50px"}}>
+      <div className="container1" style={{paddingLeft:"50px", paddingRight:"50px",width:"100px"}}>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-        <img src="./images/kirby_logo.jpg" class="card-img-top" alt="logo" style={{width:"200px"}} />
+        <img src="./images/kirby_logo.jpg" class="card-img-top" alt="logo" style={{width:"250px", height:"100px"}} />
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{paddingLeft:"500px", fontSize:"20px", fontWeight:"bold"}}>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent" style={{paddingLeft:"200px", fontSize:"20px", fontWeight:"bold"}}>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
            
               <li className="nav-item dropdown mx-2">
@@ -125,7 +125,7 @@ const navbar = () => {
         </div>
         
       </nav>
-      <Slide/>
+     
     </div>
     </div>
    

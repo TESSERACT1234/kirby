@@ -4,10 +4,10 @@ import '../pages/Home.css'
 const Card2 = () => {
     return (
         <div>
-            <div class="card" >
-            <img src="./images/accomodation.png" class="card-img-top" alt="Chinese" />
-                <div class="card-body">
-                    <h5 class="card-title">Acommodations</h5>
+            <div className="card" >
+            <img src="./images/accomodation.png" className="card-img-top1 " alt="Chinese" />
+                <div className="card-body">
+                    <h5 className="card-title">Acommodations</h5>
                 </div>
             </div>
         </div>
