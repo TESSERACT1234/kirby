@@ -14,13 +14,22 @@ import Card15 from '../components/Card15'
 import Card16 from '../components/Card16'
 import Card14 from '../components/Card14'
 import Carddummy from '../components/Carddummy'
+import Navbar from '../components/Navbar'
 
 import './Home.css';
 const HomeMain = () => {
     return (
         <div>
+            <Navbar />
+            <div className='home-video'>
+                <video width="100%" height="100%" autoPlay>
+                    <source src="./images/video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
             <div className='home-slider'>
-                <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+                {/* <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="1000">
                             <img src="./images/2.jpg" className="d-block w-100" alt="..." />
@@ -40,7 +49,7 @@ const HomeMain = () => {
 
                     </div>
 
-                </div>
+                </div> */}
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
@@ -100,6 +109,7 @@ const HomeMain = () => {
                     </div>
                 </div >
             </div>
+
             <div className='sample3'>
                 <div>
                     <h1 className='s1' > Why Kirby</h1>
@@ -117,6 +127,9 @@ const HomeMain = () => {
 
                 </div>
             </div>
+
+
+
         </div>
     )
 }

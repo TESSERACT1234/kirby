@@ -8,22 +8,20 @@ import HomeMain from "../src/pages/HomeMain";
 // rfce
 function App() {
   return (
-    <div>/
-       <Navbar />
-      <BrowserRouter>
-       
-        
-        <Routes>
-          <Route index element={<HomeMain/>}></Route>
-          <Route path="/" element={<HomeMain/>}></Route>
-        </Routes>
+    <div>
       
-        
-        
+      <BrowserRouter>
+
+
+        <Routes>
+          <Route index element={<HomeMain />}></Route>
+          <Route path="/" element={<HomeMain />}></Route>
+        </Routes>
+
+
+
       </BrowserRouter>
-      <Footer/>
-
-
+      <Footer />
     </div>
   )
 }
