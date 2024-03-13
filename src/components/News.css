@@ -1,0 +1,40 @@
+.cardn{
+    width: 23rem;
+    height: 33rem;
+    margin: 2rem;
+   border-radius: 1rem;
+    background-color: rgb(250, 249, 248);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Adjust the values as needed */
+  transition: box-shadow 0.3s ease-in-out; /* Add transition effect */
+  transition: transform 0.3s ease-in-out;
+ 
+}
+.card-img-top10{
+    height: 15rem;
+    width: 22rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.cardn.hovered {
+    transform: translateY(-10px); /* Adjust the value as needed */
+  }
+.card-title10{
+    font-size: 20px;
+    padding-left: 15px;
+}
+.cardn:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust the values for the hover effect */
+  }
+  .btn{
+    background-color: orangered;
+    color: white;
+    font-size: 17px;
+    border-radius: 5rem;
+  }
+  .bt1{
+    padding-left: 12px;
+  }
+  
