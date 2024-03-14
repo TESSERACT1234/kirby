@@ -1,84 +1,101 @@
 .Footer-BG{
-    background-color: black;
-    color: white;
-    padding-top: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+  background-color: black;
+  color: white;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
+.triangle{
+
+
+}
+
+
 .F-D-1{
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .F-D-1-I{
-    padding: 2rem;
-    background-color: white;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+  padding: 2rem;
+  background-color: white;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .F-S-M-I{
-    margin-top: 2.5rem;
-    margin-right: 10rem;
-    margin-left: 2rem;
+  margin-top: 2.5rem;
+  margin-right: 10rem;
+  margin-left: 2rem;
 }
 
 a.social {
-    margin: 0 0.35rem;
-    transition: transform 250ms;
-    display: inline-block;
+  margin: 0 0.35rem;
+  transition: transform 250ms;
+  display: inline-block;
 }
 
 a.social:hover {
-  transform: translateY(-2px);
+transform: translateY(-2px);
 }
 
 a.youtube {
-    color: #eb3223;
-  }
-  
-  a.facebook {
-    color: #4968ad;
-    background-color: white;
-    border-radius: 3em;
-  }
-  
-  a.twitter {
-    color: #49a1eb;
-  }
-  
-  a.instagram {
-    color: red;
-  }
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+  background-color: white;
+  border-radius: 3em;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: red;
+}
 
 .F-D-1-T{
-    margin-top: 2rem;
-    font-weight:lighter;
+  margin-top: 2rem;
+  font-weight:lighter;
 
 }
 
 .F-D-1-B{
-    margin: auto;
-    margin-left: 2rem;
-    background-color: #e8741f;
-    color: white;
-    border: solid 1px #e8741f;
-    border-radius: 1rem;
-    padding: 0.5rem;
+  margin: auto;
+  margin-left: 2rem;
+  background-color: #e8741f;
+  color: white;
+  border: solid 1px #e8741f;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  
 }
 .F-D-1-B:hover{
-  transform: translateY(-2px);
+transform: translateY(-2px);
 }
 
 
 
 .F-D-2{
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .AboutUs{
-    margin: auto;
-    margin-top: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.F-D-3{
+display: flex;
+flex-direction: row;
+}
+.F-D-3-1{
+display: flex;
+flex-direction: row;
+color:  #e8741f;
 }

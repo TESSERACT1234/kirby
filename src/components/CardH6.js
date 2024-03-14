@@ -19,7 +19,7 @@ const CardH6 = () => {
       <div>
         <div className={`card ${isFlipped ? 'flipped' : ''}`}
           onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave} style={{ height: "230px", width: "180px" }}>
+          onMouseLeave={handleMouseLeave} style={{ height: "230px", width: "180px", marginRight:"5px" }}>
           <div className="card-front">
             <img src="images/accommodation.svg" className="card-img-top" alt="..." />
             <div className="card-body">

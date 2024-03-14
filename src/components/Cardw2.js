@@ -27,7 +27,7 @@ const Cardw2 = () => {
             <div>
                 <div className={`card ${isHovered ? 'hovered' : ''}`}
           onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave} >
+          onMouseLeave={handleMouseLeave} style={{padding:"1rem", margin:"1rem"}} >
                     <img src="images/2svg.svg" className="card-img-top" alt="..." />
                     <div className="card-body">
                     <div className='cc2'>

@@ -22,20 +22,20 @@ import Ncard5 from '../components/Ncard5';
 
 const HomeMain = () => {
 
-
+    
     return (
         <div>
             <div className="video">
                 <div className='home-video'>
                     <video width="100%" height="100%" autoPlay>
-                        <source src="C:\Users\Khushi Patel\Desktop\kirby logo\bgvideo.mp4" type="video/mp4" />
+                        <source src="./images/video.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </div>
             </div>
 
 
-            <div className="comp1" style={{ backgroundColor: "#e8e8e8" }}>
+            <div className="comp1" style={{backgroundColor:"#e8e8e8"}}>
                 <div className="pmain">
                     <h1 id="heading">Built for quality,<br />
                         Built to last</h1>
@@ -66,10 +66,10 @@ const HomeMain = () => {
                 backgroundImage: `url("./images/kbggg.png")`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover',
                 backgroundPosition: 'center', height: '100%'
             }}>
-                <div className="pmain2" style={{ color: "white", fontSize: "70px", paddingLeft: "20px" }}>
+                <div className="pmain2" style={{ color:"white", fontSize: "70px", paddingLeft: "20px" }}>
                     Our Expertise in Varied Applications
                 </div>
-                <div className="cardmain2" style={{ paddingLeft: "30px" }}>
+                <div className="cardmain2" style={{paddingLeft:"3px",marginRight:"26px",marginTop:"50px",marginBottom:"75px",padding:"2px"}}>
                     <div style={{ paddingTop: "10rem" }}>
                         <CardH />
                     </div>
@@ -91,35 +91,35 @@ const HomeMain = () => {
 
             </div>
 
-            <div className="fourth" style={{ paddingTop: "50px" }}>
-                <h1 style={{ fontWeight: "600", paddingLeft: "30rem" }}> WHy Kirby??</h1>
-
+            <div className="fourth" style={{paddingTop:"50px"}}>
+                <h1 style={{ fontWeight: "600",paddingLeft:"30rem" }}> WHy Kirby??</h1>
+                
                 <div className='demo4'>
-                    <div className="fourthpara">
+                <div className="fourthpara">
 
-                        <p style={{ color: "orangered" }}>  Amongst the World’s Largest PEB manufacturers </p>
-                        <p> Global Footprint of projects</p>
-                        <p> Global Engineering Expertise with Innovative Solutions</p>
-                        <p> High Safety Standards and Sustainable Building Solutions</p>
-                        <p> Complete Solution Provider</p>
-                    </div>
-                    <div className='fourthimg'>
-                        <img src="images/kirbibg.png" ></img>
-                    </div>
+                    <p style={{ color: "orangered" }}>  Amongst the World’s Largest PEB manufacturers </p>
+                    <p> Global Footprint of projects</p>
+                    <p> Global Engineering Expertise with Innovative Solutions</p>
+                    <p> High Safety Standards and Sustainable Building Solutions</p>
+                    <p> Complete Solution Provider</p>
                 </div>
-
-
-
+                <div className='fourthimg'>
+               <img src="images/kirbibg.png" ></img>
+               </div>
+               </div>
+                    
+                    
+              
 
 
             </div>
             <div className="news">
                 <div className="news1">
-                    <Ncard1 />
-                    <Ncard2 />
-                    <Ncard3 />
-                    <Ncard4 />
-                    <Ncard5 />
+                <Ncard1/>
+                <Ncard2/>
+                <Ncard3/>
+                <Ncard4/>
+                <Ncard5/>
                 </div>
             </div>
         </div>

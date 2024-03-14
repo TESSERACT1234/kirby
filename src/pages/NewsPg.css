@@ -2,3 +2,18 @@
     display: flex;
     align-items: center;
 }
+.newscontent{
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction:column;
+    padding: 2rem;
+}
+.newsa{
+  padding-left:11rem;
+  display: flex;
+}
+.newsb{
+    display: flex;
+    padding-left: 23rem;
+}

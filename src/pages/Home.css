@@ -150,6 +150,8 @@
     font-size: 40px;
     padding: 2rem;
     font-weight: bold;
+    align-items: center;
+   
    
     flex: 1;
 }
@@ -165,6 +167,7 @@
     font-size: 4rem;
     font-weight: bold;
     padding: 2rem;
+    color: orangered;
 }
 
 

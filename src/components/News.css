@@ -3,8 +3,8 @@
     height: 33rem;
     margin: 2rem;
    border-radius: 1rem;
-    background-color: rgb(250, 249, 248);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Adjust the values as needed */
+    background-color: rgb(239, 232, 225);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
   transition: box-shadow 0.3s ease-in-out; /* Add transition effect */
   transition: transform 0.3s ease-in-out;
  
