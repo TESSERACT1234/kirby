@@ -6,6 +6,12 @@
     padding-right: 3rem;
 }
 
+.triangle{
+  
+ 
+}
+
+
 .F-D-1{
     display: flex;
     flex-direction: row;
@@ -66,6 +72,7 @@ a.youtube {
     border: solid 1px #e8741f;
     border-radius: 1rem;
     padding: 0.5rem;
+    
 }
 .F-D-1-B:hover{
   transform: translateY(-2px);
@@ -81,4 +88,14 @@ a.youtube {
 .AboutUs{
     margin: auto;
     margin-top: 2rem;
+}
+
+.F-D-3{
+  display: flex;
+  flex-direction: row;
+}
+.F-D-3-1{
+  display: flex;
+  flex-direction: row;
+  color:  #e8741f;
 }

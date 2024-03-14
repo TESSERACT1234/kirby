@@ -21,13 +21,14 @@ const HomeMain = () => {
     return (
         <div>
             <Navbar />
+            
             <div className='home-video'>
                 <video width="100%" height="100%" autoPlay>
                     <source src="./images/video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
-            
+        
             <div className='home-slider'>
                 {/* <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">

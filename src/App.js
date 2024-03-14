@@ -4,11 +4,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import React from 'react';
 import "../src/pages/HomeMain"
 import HomeMain from "../src/pages/HomeMain";
+import "../src/style/App.css"
+
 
 // rfce
 function App() {
   return (
-    <div>
+    <div className="circle">
       
       <BrowserRouter>
 
