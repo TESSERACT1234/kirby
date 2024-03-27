@@ -32,10 +32,10 @@ const Cardw5 = () => {
           onMouseLeave={handleMouseLeave} style={{padding:"1rem", margin:"1rem"}}>
           <img src="images/5svg.svg" className="card-img-top" alt="..." />
           <div className="card-body">
-            <div className='cc2'>
-              <span className="card-title">{projectCount}</span> k+
-            </div>
-            <p className="card-text"> Employees world wide with 67+ nationalities</p>
+          <div className='cc2' style={{color:"orangered"}}>
+                            <span className="card-title">{projectCount}</span > k+
+                        </div>
+            <p className="card-text" style={{fontWeight:"600",fontSize:"18px"}}> Employees world wide with 67+ nationalities</p>
 
           </div>
         </div>

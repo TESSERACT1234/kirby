@@ -85,8 +85,12 @@
 .pmain {
    
     
-
+   
     flex: 1;
+}
+#paraaa{
+    font-size: 27px;
+    padding: 10px;
 }
 .card-container {
     perspective: 1000px;
@@ -197,7 +201,8 @@
 .card-text-h{
     padding-top: 2rem;
     font-size: 18px;
-    padding-left: 1rem;
+    align-items: center;
+    
     font-weight: 700;
 }
 
@@ -258,7 +263,33 @@
     .fourthimg{
         order: 2;
     }
+    .pre{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     font-size: 23px;
+     border: 0cap;
+     box-shadow: 5px solid black;
+     font-weight: 700;
+     padding-bottom: 6px;
+     color: white;
+     background-color: grey;
 
+    }
+    .next{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        font-size: 23px;
+        border: 0cap;
+        box-shadow: 5px solid black;
+        font-weight: 700;
+        padding-bottom: 6px;
+        color: white;
+        background-color: grey;
+
+    }
+  
    
 
 }

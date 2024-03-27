@@ -3,7 +3,7 @@
     height: 33rem;
     margin: 2rem;
    border-radius: 1rem;
-    background-color: rgb(239, 232, 225);
+    background-color: #faf5f5;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
   transition: box-shadow 0.3s ease-in-out; /* Add transition effect */
   transition: transform 0.3s ease-in-out;
@@ -37,4 +37,37 @@
   .bt1{
     padding-left: 12px;
   }
+
+  /* .news {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .news1 {
+    display: flex;
+    animation: slideLeft 100s linear infinite; 
+  
+  
+  @keyframes slideLeft {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(-100%);
+    }
+    40% {
+      transform: translateX(-200%);
+    }
+    60% {
+      transform: translateX(-300%);
+    }
+    80% {
+      transform: translateX(-400%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+    
+  } */
+  
   

@@ -29,10 +29,12 @@ const CardH4 = () => {
           </div>
           <div className="card-back">
             <div className="card-back-content">
+              <ul>
             <li>Car Parks</li>
                 <li>Airports & Seaports</li>
                 <li>Aircraft Hangers</li>
-                <li>Pedestrian Bridges</li>            </div>
+                <li>Pedestrian Bridges</li> 
+                </ul>           </div>
           </div>
         </div>
       </div>

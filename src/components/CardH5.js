@@ -24,17 +24,19 @@ const CardH5 = () => {
             <div className="card-body">
 
 
-              <p className="card-text-h"> Community</p>
+              <p className="card-text-h" style={{paddingLeft:"1.3rem"}}> Community</p>
             </div>
           </div>
           <div className="card-back">
             <div className="card-back-content">
+              <ul>
             <li>Training Centers</li>
                 <li>Churches</li>
                 <li>Mosques</li>
                 <li>Hospitals</li>
                 <li>Stadiums</li>
-                <li>Health Centers</li>            </div>
+                <li>Health Centers</li> 
+                </ul> </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,58 @@
+
+   .Newsdetail {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    padding: 10px; /* Add padding around the content */
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row; /* Arrange children in a column */
+    width: 95%; /* Adjust the width as needed */
+}
+
+.info {
+    flex: 1; /* Each section takes up equal space */
+    margin: 0 5px; /* Add margin on the sides */
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.imgdetail {
+    flex: 1; /* Each section takes up equal space */
+     /* Add margin on the sides */
+   padding-left: 5px;
+   
+
+}
+.imgdetail1{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    flex: 1;
+}
+.date_newsdetail{
+    color: gray;
+}
+
+/* img {
+    width: 100%; /* Ensures the image fills its container */
+    /* height: auto; */
+    @media (max-width: 1000px)
+     {
+        .container1 {
+            flex-direction: column; /* Change to column layout on smaller screens */
+            align-items: center; /* Align items in the center */
+        }
+    
+        .info {
+            order: 2; /* Change the order of the info section */
+            margin-top: 2rem; /* Add margin to the top */
+        }
+    
+        .imgdetail {
+            order: 1; /* Change the order of the imgdetail section */
+        }
+    
+      
+    }

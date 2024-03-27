@@ -25,15 +25,17 @@ const CardH8 = () => {
             <div className="card-body">
 
 
-              <p className="card-text-h"> Storage Solutions</p>
+              <p className="card-text-h" style={{paddingLeft:"2rem"}}> Storage Solutions</p>
             </div>
           </div>
           <div className="card-back">
             <div className="card-back-content">
+              <ul>
             <li>Pallet Racking</li>
                 <li>Multi-Tire Shelving</li>
                 <li>Automation Racking</li>
-                <li>Drive-in Racking</li>            </div>
+                <li>Drive-in Racking</li>   
+                </ul>         </div>
           </div>
         </div>
       </div>

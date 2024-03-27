@@ -7,7 +7,7 @@ const Cardw2 = () => {
     const [isHovered, setIsHovered] = useState(false);
   useEffect(() => {
     const interval = setInterval(() => {
-      if (projectCount < 515) {
+      if (projectCount < 30) {
         setProjectCount(projectCount + 1);
       } else {
         clearInterval(interval);
@@ -30,10 +30,10 @@ const Cardw2 = () => {
           onMouseLeave={handleMouseLeave} style={{padding:"1rem", margin:"1rem"}} >
                     <img src="images/2svg.svg" className="card-img-top" alt="..." />
                     <div className="card-body">
-                    <div className='cc2'>
+                    <div className='cc2' style={{color:"orangered"}}>
                             <span className="card-title">{projectCount}</span> k+
                         </div>
-                        <p className="card-text"> MT productions capacity</p>
+                        <p className="card-text" style={{fontWeight:"600",fontSize:"18px"}}> MT productions capacity</p>
 
                     </div>
                 </div>

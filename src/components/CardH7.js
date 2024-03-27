@@ -25,16 +25,18 @@ const CardH7 = () => {
             <div className="card-body">
 
 
-              <p className="card-text-h"> Agriculture</p>
+              <p className="card-text-h" style={{paddingLeft:"1.7rem"}}> Agriculture</p>
             </div>
           </div>
           <div className="card-back">
             <div className="card-back-content">
+              <ul>
             <li>Poultries </li>
                 <li>Farms</li>
                 <li>Slaughter House</li>
                 <li>Parks</li>
-                <li>Green Houses</li>            </div>
+                <li>Green Houses</li>       
+                </ul>     </div>
           </div>
         </div>
       </div>

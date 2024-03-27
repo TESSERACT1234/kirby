@@ -30,9 +30,11 @@ const CardH6 = () => {
           </div>
           <div className="card-back">
             <div className="card-back-content">
+              <ul>
             <li>Labor Camps</li>
                 <li>Low Cost </li>
-                <li>Housing Solutions</li>            </div>
+                <li>Housing Solutions</li>    
+                </ul>        </div>
           </div>
         </div>
       </div>

@@ -8,11 +8,59 @@
   .dropdown-menu {
     display: none;
     position: absolute;
-    background-color: #f2ecec;
+    background-color: #e4e1e18b;
     min-width: 160px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: Arial, Helvetica, sans-serif; 
+   
   }
+ 
+  
+    .navbar {
+      transition: background-color 0.3s ease;
+    }
+    
+    /* / Styles for transparent navbar / */
+    .navbar-transparent {
+      background-color: transparent !important;
+      box-shadow: none !important;
+    }
+    
+    /* / Styles for white navbar / */
+    .navbar-white {
+      background-color: white !important;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+      /* / Add box-shadow for depth effect / */
+    }
+    
+    /* / Container styles / */
+    .container1 {
+      transition: background-color 0.3s ease;
+      
+    }
+    
+    /* / Styles for transparent container / */
+    .transparent {
+      background-color: transparent !important;
+    }
+    
+    .navbar-nav a {
+      color: inherit; 
+      /* / or explicitly set it to white / */
+      text-decoration: none; 
+      /* / remove underlines / */
+    }
+    
+    .navbar-nav a:hover {
+      color: rgb(255, 98, 0); 
+      /* / Change to your desired hover color / */
+    }
+    
+    
+    .navbar .dropdown-toggle::after {
+      display: none; 
+      /* / Hide the arrow indicator / */
+    }

@@ -8,11 +8,13 @@ import "../src/pages/Login";
 import Login from "../src/pages/Login";
 import NewsPg from "./pages/NewsPg";
 import Whoweare from "./pages/Whoweare";
+import Sticky from "./components/Sticky";
+import NewsDetail from "./components/NewsDetail";
 
 // rfce
 function App() {
   return (
-    <div>/
+    <div>
        <Navbar />
       <BrowserRouter>
        
@@ -23,6 +25,7 @@ function App() {
           <Route path="/login" element={<Login/>}></Route>
           <Route path="/newspg" element={<NewsPg/>}></Route>
           <Route path="/who" element={<Whoweare/>}></Route>
+          <Route path="/newsdetail" element={<NewsDetail/>}></Route>
           
 
         </Routes>
@@ -32,6 +35,7 @@ function App() {
         
       </BrowserRouter>
       <Footer/>
+      <Sticky/>
 
 
     </div>

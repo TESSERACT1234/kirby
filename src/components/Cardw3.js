@@ -8,7 +8,7 @@ const Cardw3 = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (projectCount < 7) {
+      if (projectCount < 515) {
         setProjectCount(projectCount + 1);
       } else {
         clearInterval(interval);
@@ -31,10 +31,10 @@ const Cardw3 = () => {
           onMouseLeave={handleMouseLeave} style={{padding:"1rem", margin:"1rem"}} >
                     <img src="images/3svg.svg" className="card-img-top" alt="..." />
                     <div className="card-body">
-                    <div className='cc2'>
-                            <span className="card-title">{projectCount}</span> k+
+                    <div className='cc2' style={{color:"orangered"}}>
+                            <span className="card-title">{projectCount}</span > k+
                         </div>
-                        <p className="card-text">Manufacturing location worldwide</p>
+                        <p className="card-text" style={{fontWeight:"600",fontSize:"18px",paddingBottom:"5px"}}>Manufacturing location worldwide</p>
 
                     </div>
                 </div>

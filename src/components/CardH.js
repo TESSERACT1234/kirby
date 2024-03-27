@@ -26,17 +26,20 @@ const CardH = () => {
                         <div className="card-body">
 
 
-                            <p className="card-text-h"> Industial</p>
+                            <p className="card-text-h"
+                                style={{ paddingLeft: "1.9rem" }}> Industial</p>
                         </div>
                     </div>
                     <div className="card-back">
                         <div className="card-back-content">
-                        <li>Automotive</li>
-                <li>Tyre</li>
-                <li>Oil Utilities</li>
-                <li>Paints</li>
-                <li>Engineering</li>
-                <li>FMCG</li>                        </div>
+                            <ul>
+                                <li>Automotive</li>
+                                <li>Tyre</li>
+                                <li>Oil Utilities</li>
+                                <li>Paints</li>
+                                <li>Engineering</li>
+                                <li>FMCG</li>
+                            </ul>                      </div>
                     </div>
 
 
